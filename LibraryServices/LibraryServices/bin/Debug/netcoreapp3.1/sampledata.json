@@ -1,0 +1,85 @@
+  [
+    {
+      "bookID": 1,
+      "isbn": "TKMB",
+      "title": "To kill a mocking bird",
+      "bookStatus": "Available",
+      "authors": [
+        {
+          "authorID": 1,
+          "authorName": "Harper Lee",
+          "description": "",
+          "books": null
+        }
+      ]
+    },
+    {
+      "bookID": 2,
+      "isbn": "GOMMN",
+      "title": "Good Omens",
+      "bookStatus": "Available",
+      "authors": [
+        {
+          "authorID": 4,
+          "authorName": "Neil German",
+          "description": "",
+          "books": null
+        },
+        {
+          "authorID": 5,
+          "authorName": "Terry Pratchett",
+          "description": "",
+          "books": null
+        }
+      ]
+    },
+    {
+      "bookID": 3,
+      "isbn": "HYLS",
+      "title": "Heads You loose",
+      "bookStatus": "Rented",
+      "authors": [
+        {
+          "authorID": 2,
+          "authorName": "Joseph Helller",
+          "description": "",
+          "books": null
+        },
+        {
+          "authorID": 6,
+          "authorName": "David Hayward",
+          "description": "",
+          "books": null
+        }
+      ]
+    },
+    {
+      "bookID": 4,
+      "isbn": "HTFY",
+      "title": "The hands that feed you",
+      "bookStatus": "Available",
+      "authors": [
+        {
+          "authorID": 4,
+          "authorName": "Neil German",
+          "description": "",
+          "books": null
+        }
+      ]
+    },
+    {
+      "bookID": 5,
+      "isbn": "TLOR",
+      "title": "The Lord of the rings",
+      "bookStatus": "Available",
+      "authors": [
+        {
+          "authorID": 3,
+          "authorName": "J R Tolkien",
+          "description": "",
+          "books": null
+        }
+      ]
+    }
+  ]
+

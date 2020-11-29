@@ -1,0 +1,16 @@
+<nav *ngIf="isvalidCountry"  class='navbar navbar-expand navbar-light bg-light'>
+  <img src="./assets/images/logo.jpg"
+  class="img-responsive center-block"
+  style="max-height:100px;padding-bottom:0px" />
+
+      <ul class='nav nav-pills' style="padding-left:30px;">
+        <li><a class='nav-link' routerLinkActive='active' [routerLink]="['/welcome']">Home</a></li>
+        <li><a class='nav-link' routerLinkActive='active' [routerLink]="['/books']">Book List</a></li>
+      </ul>
+  </nav>
+  <div *ngIf="isvalidCountry"  class='container'>
+    <router-outlet></router-outlet>
+  </div>
+  <div *ngIf="!isvalidCountry"  class='container'>
+    <h1>This website is not available in your location</h1>
+  </div>
