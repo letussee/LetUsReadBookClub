@@ -36,7 +36,6 @@ namespace LibraryServices.Controllers
             try
             {
                 lstBooks = dt.GetAllBookDetails();
-                throw new Exception();
             }
             catch (Exception ex)
             {
